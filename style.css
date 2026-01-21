@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0b0611;
+  overflow: hidden;
+  font-family: system-ui, sans-serif;
+}
+
+canvas {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #eaeaff;
+  text-align: center;
+}
+
+.content h1 {
+  font-size: 4rem;
+  letter-spacing: 1px;
+}
+
+.content p {
+  opacity: 0.7;
+  margin-top: 12px;
+}
